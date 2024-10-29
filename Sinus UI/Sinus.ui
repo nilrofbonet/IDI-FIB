@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sinus</class>
+ <widget class="QWidget" name="Sinus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>892</width>
+    <height>694</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sinus</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="Progress">
+     <item>
+      <widget class="QProgressBar" name="p1">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p2">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p3">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p4">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p5">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p6">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p7">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p8">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p9">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="p10">
+       <property name="minimum">
+        <number>-100</number>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Amplitud">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Amplitud</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="ampli">
+       <property name="maximum">
+        <number>10</number>
+       </property>
+       <property name="value">
+        <number>5</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Fase">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Fase         </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="faseh">
+       <property name="minimum">
+        <number>-5</number>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="Sortir">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>278</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Inici">
+       <property name="text">
+        <string>&amp;Inici</string>
+       </property>
+       <property name="shortcut">
+        <string>Alt+I</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Timer">
+       <property name="text">
+        <string>&amp;Timer</string>
+       </property>
+       <property name="shortcut">
+        <string>Alt+T</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>&amp;Surt</string>
+       </property>
+       <property name="shortcut">
+        <string>Alt+S</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Sinus</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>881</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>343</x>
+     <y>213</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ampli</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sinus</receiver>
+   <slot>modificar_amplitud()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>114</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>657</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>faseh</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sinus</receiver>
+   <slot>modificar_fase()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>410</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>710</x>
+     <y>656</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Timer</sender>
+   <signal>clicked()</signal>
+   <receiver>Sinus</receiver>
+   <slot>modificar_timer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>740</x>
+     <y>676</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>384</x>
+     <y>657</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Inici</sender>
+   <signal>clicked()</signal>
+   <receiver>Sinus</receiver>
+   <slot>iniciar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>681</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>886</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>modificar_amplitud()</slot>
+  <slot>modificar_fase()</slot>
+  <slot>modificar_timer()</slot>
+  <slot>iniciar()</slot>
+ </slots>
+</ui>
