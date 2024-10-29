@@ -1,5 +1,5 @@
 # Interacció i Disseny d'Interfícies
-FIB IDI 2023-2024 Q2
+FIB IDI 
 
 ## How to execute
 - Install QT and OpenGL
