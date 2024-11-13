@@ -10,6 +10,12 @@ make
 ./name_project
 ```
 
+## Contents of the projects
+- .tar witht he initial files
+- .pdf with the instructions
+- images to guide you along
+- folder with my solution
+
 
 
 
