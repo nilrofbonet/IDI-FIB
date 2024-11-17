@@ -102,7 +102,7 @@ void MyGLWidget::initializeGL(){
   LL2GLWidget:: creaBuffersTerra();
   LL2GLWidget:: creaBuffersCub();
   iniEscena();
-  iniCamera();
+  //iniCamera();
 }
 
 void MyGLWidget::modelTransformTerra(){
@@ -236,13 +236,13 @@ void MyGLWidget::viewTransform(){
 void MyGLWidget::iniEscena(){
   radiEscena = sqrt(80);
   centreEscena = glm::vec3(0,0,0);
-
+  perspectiva = true;
   posPorter = glm::vec3(11.0, 0.0, 0.0);  // posició inicial del porter
   posPilota = glm::vec3(9.0, 0.0, 0.0); 
   LL2GLWidget::dirInicialPilota(); 
   girPsi = -M_PI/4;
   girTheta = 0;
-
+  iniCamera();
   
   connect(&timer, &QTimer::timeout, this, &MyGLWidget::modificar_posicio);
 }
